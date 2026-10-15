@@ -6,7 +6,6 @@ s3.upload_file(
     "boto3-s3-demo-bucket-2026",
     "message.txt"
 )
-
 print("File uploaded")
 data = s3.head_object(
     Bucket="boto3-s3-demo-bucket-2026",
