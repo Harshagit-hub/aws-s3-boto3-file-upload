@@ -2,7 +2,7 @@ import boto3
 s3 = boto3.client("s3", region_name="REGION")
 
 s3.upload_file(
-    "message.txt", 
+    "message.txt",
     "boto3-s3-demo-bucket-2026",
     "message.txt"
 )
